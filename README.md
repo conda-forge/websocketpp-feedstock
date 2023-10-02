@@ -1,11 +1,11 @@
-About websocketpp
-=================
+About websocketpp-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/websocketpp-feedstock/blob/main/LICENSE.txt)
 
 Home: https://docs.websocketpp.org
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/websocketpp-feedstock/blob/main/LICENSE.txt)
 
 Summary: WebSocket++ is a header only C++ library that implements RFC6455 The WebSocket Protocol.
 

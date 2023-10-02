@@ -14,7 +14,7 @@ source:
       - fix-cmake-install-path.patch
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
@@ -24,10 +24,9 @@ requirements:
     - pkg-config
     - ninja
   host:
-    - boost-cpp
+    - libboost-devel
     - zlib
   run:
-    - boost-cpp
 
 test:
   commands:
