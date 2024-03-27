@@ -14,12 +14,13 @@ source:
       - fix-cmake-install-path.patch
 
 build:
-  number: 3
+  number: 4
 
 requirements:
   build:
     - {{ compiler('cxx') }}
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - cmake
     - pkg-config
     - ninja
