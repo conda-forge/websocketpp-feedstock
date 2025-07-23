@@ -1,7 +1,7 @@
 mkdir build
 cd build
 
-cmake ${CMAKE_ARGS} .. \
+cmake ${CMAKE_ARGS} -DCMAKE_POLICY_VERSION_MINIMUM=3.5 .. \
       -G "Ninja" \
       -DCMAKE_BUILD_TYPE=Release \
       -DCMAKE_PREFIX_PATH=$PREFIX \
