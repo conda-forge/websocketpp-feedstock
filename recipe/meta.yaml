@@ -12,9 +12,10 @@ source:
       - cmake-configversion-compatibility-anynewerversion.patch
       - fix-cmake-find-boost.patch
       - fix-cmake-install-path.patch
+      - boost-1-90-asio-compat.patch
 
 build:
-  number: 7
+  number: 8
 
 requirements:
   build:
